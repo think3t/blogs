@@ -109,3 +109,4 @@ deploy:
   type: git
   repo: git@github.com:think3t/blogs.git
   branch: gh-pages
+  ignore_hidden: true

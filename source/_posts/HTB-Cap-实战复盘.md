@@ -1,5 +1,5 @@
 ---
-title: HTB 实战 | Cap 靶机复盘（失败路径版）
+title: HTB 实战 | Cap 靶机复盘
 date: 2026-06-10 21:57:00
 categories:
   - 打靶机实战
@@ -9,6 +9,7 @@ tags:
   - IDOR
   - Linux Capabilities
   - 失败复盘
+  - HTB
 ---
 
 > 本文记录 Hack The Box 入门机器 Cap 的复盘，靶机难度不高，因此**不按「侦察 → 利用 → 提权」的顺滑剧本写**。
@@ -275,7 +276,7 @@ nathan@cap:~$ getcap -r / 2>/dev/null
 
 ---
 
-## 二、复盘结论：每个坑对应一条可迁移经验
+## 二、复盘结论
 
 | 乱序阶段 | 踩的坑 | 经验教训 |
 | --- | --- | --- |
